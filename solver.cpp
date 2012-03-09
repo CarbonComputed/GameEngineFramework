@@ -15,8 +15,8 @@ Solver::~Solver(){
 }
 
 Position* Solver::find_best_move(Board* board) {
-	Position* pos = new Position(board);
-	int score = negamax(pos,99999,-99999, 1, -1 );
+  Position* pos = new Position(board);
+  int score = negamax(pos,99999,-99999, 1, -1 );
   pos->set_board(best);
   pos->set_score(score);
   return pos;
