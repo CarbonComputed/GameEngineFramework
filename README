@@ -1,0 +1,4 @@
+make
+You can only take 1,2, or 3 pennies for takeaway.
+Algorithm should work with any game where a position be analyzed to an integer. 
+./takeaway [default amount]
