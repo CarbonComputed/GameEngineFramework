@@ -41,22 +41,22 @@ int main(int argc, char* argv[]) {
 //    board->print_board();
 //    left.move(&board,solver);
     delete board;
-/*    TakePosition pos(val);
-    do {
-        cout<<"LEFT"<<endl;
-        left.move(pos);
-        if(left.is_final(pos)) {
-            cout<<"Lose"<<endl;
-            return 0;
-        }
-        cout<<"RIGHT"<<endl;
-        right.move(pos);
-        if(right.is_final(pos)) {
-            cout<<"Win"<<endl;
-            return 0;
-        }
-    } while(!left.is_final(pos));
-*/    
+    /*    TakePosition pos(val);
+        do {
+            cout<<"LEFT"<<endl;
+            left.move(pos);
+            if(left.is_final(pos)) {
+                cout<<"Lose"<<endl;
+                return 0;
+            }
+            cout<<"RIGHT"<<endl;
+            right.move(pos);
+            if(right.is_final(pos)) {
+                cout<<"Win"<<endl;
+                return 0;
+            }
+        } while(!left.is_final(pos));
+    */
 
 
     return 0;

@@ -7,17 +7,17 @@ class Board;
 
 class Position {
 private:
-	int score;
-	Board* board;
+    int score;
+    Board* board;
 
 public:
-  Position();
-	Position(Board* brd);
-  ~Position();
-	void set_score(int scr);
-	void set_board(Board* brd);
-  int get_score() const;
-	Board* get_board() const;
+    Position();
+    Position(Board* brd);
+    ~Position();
+    void set_score(int scr);
+    void set_board(Board* brd);
+    int get_score() const;
+    Board* get_board() const;
 };
 
 

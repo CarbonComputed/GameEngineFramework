@@ -11,7 +11,7 @@ using namespace std;
 
 class Player {
 private:
-	bool _is_human;
+    bool _is_human;
 public:
     Player(bool is_human);
     ~Player();
