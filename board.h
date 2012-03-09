@@ -2,7 +2,6 @@
 #define BOARD_H_
 
 #include "defines.h"
-#include <iostream>
 using namespace std;
 
 class Board {

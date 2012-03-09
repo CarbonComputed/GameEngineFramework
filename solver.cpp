@@ -1,6 +1,6 @@
-#include "takeawayboard.h"
+#include <cstddef> //for the NULL keyword
+
 #include "solver.h"
-#include <iostream>
 using namespace std;
 
 Solver::Solver() {

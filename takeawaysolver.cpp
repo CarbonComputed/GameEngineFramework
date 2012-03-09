@@ -1,6 +1,5 @@
 #include "takeawaysolver.h"
 #include "takeawayboard.h"
-#include <iostream>
 using namespace std;
 
 vector < Position* > TakeAwaySolver::generate_moves(Board *brd){
